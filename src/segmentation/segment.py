@@ -3,12 +3,6 @@ import numpy as np
 
 import torch
 from torchvision import datasets, transforms
-from torch.autograd import Variable
-from torch.utils.data import TensorDataset, DataLoader
-from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
-
-import cv2
-import matplotlib.pyplot as plt
 import PIL.Image as Image
 
 from tqdm import tqdm
